@@ -133,12 +133,17 @@ int main(){
     
     cout<<"This is Inorder traversal : ";
     inorder(root);
+    cout<<endl;
+
     cout<<"This is preorder traversal : ";
     preorder(root);
+    cout<<endl;
     cout<<"This is postorder traversal : ";
     postorder(root);
+    cout<<endl;
     cout<<"This is Reverse Level Order traversal : ";
     reverseLevelOrder(root);
+    cout<<endl;
     return 0;
 
 }
