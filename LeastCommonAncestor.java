@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class LeastCommonAncestor {
     private List<TreeNode> path1 = new ArrayList<>();
     private List<TreeNode> path2 = new ArrayList<>();
 
